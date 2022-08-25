@@ -1,0 +1,62 @@
+/*utilizacion de mapas para los titulos y subtitulos */
+
+$titulo-principal:(
+   /* key - value (valor) */
+   bg-titular: rgba(0, 0, 0, 0),
+   border: 2px solid #00548a,
+   color-text: #00548a,
+   font-size-titulo:20px,
+   font-fam:Helvetica,
+
+);
+
+
+/*h2*/
+
+
+$titulo-secundario:(
+   /* key - value (valor) */
+   bg-titular: rgba(75, 38, 38, 0),
+   color-text: grey,
+   font-size-titulo:28px,
+   font-fam:Helvetica,
+
+
+);
+
+
+/* Para llamar a un mapa, traigo la funcion map-get y entre los parentesis
+primero va el nombre del mapa, y seguido de la coma la propiedad que quiero aplicar */
+
+.section-heading{
+    background-color: map-get($titulo-principal, bg-titular);
+  text-align: center;
+  
+    font-family: map-get($titulo-principal, font-fam);
+    color: nth($colores , 3 );
+    
+}
+
+
+.section-subheading{
+  background-color: map-get($titulo-secundario, bg-titular);
+font-family: map-get($titulo-secundario, font-fam);
+  font-size: map-get($titulo-secundario, font-size-titulo);
+ 
+  
+}
+
+
+$header:(
+  bg-header: white,
+  list:circle,
+  decoration:none,
+  border-header: solid 2px #00548a,
+);
+
+$nav:(
+  bg-nav: #00548a,
+  list:circle,
+  decoration:none,
+  border-header: solid 2px #00548a,
+);

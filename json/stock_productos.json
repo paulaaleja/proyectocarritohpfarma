@@ -1,0 +1,94 @@
+{
+    "perfumeria":[
+
+        
+        {
+
+            "id": "1",
+            "price": 980,
+            "title": "Bagovit Manos y Uñas",
+            "image": "https://i.ibb.co/nRcj3YN/manos-y-unas.jpg"
+        },
+        {
+            "id": "2",
+            "price": 544,
+            "title": "Pañales Huggies x 8 XG",
+            "image": "https://i.ibb.co/VW8fmyz/panales.jpg"
+        },
+        {
+            "id": "3",
+            "price": 1000,
+            "title": "Perfume Kevin x 60ml",
+            "image": "https://i.ibb.co/NxDr0Gm/kevin.jpg"
+        },
+        {
+            "id": "4",
+            "price": 3270,
+            "title": "Perfume Paula Luz x 60 ml",
+            "image": "https://i.ibb.co/gSXwgTC/paula-luz.jpg"
+        },
+        {
+            "id": "5",
+            "price": 159,
+            "title": "Antitranspirante Dove x 120",
+            "image": "https://i.ibb.co/2KSBXJV/dove-antitranspirante-en-barra-original-imagen1.jpg"
+        },
+        {
+            "id": "6",
+        "price": 466,
+        "title": "Shampoo Elvive Loreal x 250",
+        "image": "https://i.ibb.co/rsH5Fdp/elvive.jpg"
+       
+        }
+    ],
+
+    "ventalibre":[
+        {
+            "id": "1",
+            "price":980,
+            "title": "Actron 600 x 20 capsulas",
+            "image": "https://i.ibb.co/sFv99F0/actron.jpg id: 1"
+          
+        },
+        {
+        "id": "11",
+        "price": 540,
+        "title": "Aziatop x 10 capsulas",
+        "image": "https://i.ibb.co/RbPF1zF/aziatop.jpg"
+    
+               },
+        {
+        "id": "12",
+        "price": 780,
+        "title": "Dulcolax x 20 grageas",
+        "image": "https://i.ibb.co/25CrQ7X/dulcolaz.jpg"
+       
+
+
+        },
+        {
+        "id": "13",
+        "price": 965,
+        "title": "Coltix gotas x 20ml",
+        "image": "https://i.ibb.co/b2GqH38/coltix.jpg"
+
+    
+
+        },
+        {
+        "id": "14",
+        "price": 1200,
+        "title": "Alernix Spray nasal x 100ml",
+        "image": "https://i.ibb.co/0XSY8sm/alernix.jpg"
+       
+        },
+        {
+        "id": "15",
+        "price": 2089,
+        "title": "Curflex x 50 capsulas",
+        "image": "https://i.ibb.co/wRyFpWQ/curflex.jpg"
+
+        }
+    ]
+
+}

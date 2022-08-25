@@ -1,0 +1,11 @@
+/* Operadores - Funciones matematicas */
+
+$ancho-img: 50%;
+
+.img{
+    width: $ancho-img *2;
+}
+
+/* Igual ahora con la funcion cal() de css esta herramienta de sass quizas no se usa tanto
+como antes, pero esta bueno que ustedes sepan que existe 
+si quieren pueden investigar esta funcion! */

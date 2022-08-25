@@ -1,0 +1,15 @@
+/* Importamos todos los partials que creamos
+para poder compilarlos al CSS  */
+
+@import '../scss/components/header';
+@import '../scss/components/footer';
+@import '../scss/base/estilosGenerales';
+@import '../scss/base/listas';
+@import '../scss/base/variables';
+@import '../scss/base/mapas';
+@import '../scss/base/mapas';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+@import '../scss/base/extends';
+@import '../scss/components/timeline';
+@import '../scss/base/mixin';
+@import '../scss/components/iframe';

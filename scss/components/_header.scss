@@ -1,0 +1,38 @@
+/*Importamos todos los partials que vamos a utilizar, en este caso
+variables, listas y mapas */
+
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/mapas';
+@import '../base/estilosGenerales';
+
+/* Generamos el nesting o anidamiento segundo nuestra estructura HTML */
+header {
+    /*background-color: $bg-color-general;*/
+    background-color: map-get($header, bg-header);
+    nav {  background-color: map-get($nav, bg-nav);
+        ul {
+            list-style: none;
+
+            li {
+                list-style: map-get($header, list);
+
+                a {
+                    text-decoration: underline;
+                    /* Con el signo del ampersand & podemos agregar 
+                    pseudoclases y pseudoelementos dentro de cada 
+                    clase / etiqueta o ID en donde lo necesitemos implementar */
+                    &:hover {
+                        color: nth($colores, 3);
+                    }
+                    @media screen and (max-width:750px){
+                          text-decoration: dotted;
+                          color: nth($colores, 3);
+                          background-color: nth($colores, 3);
+                    }
+                }
+            }
+        }
+    }}
+
+   

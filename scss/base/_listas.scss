@@ -1,0 +1,35 @@
+/* lista */
+
+/* paleta de colores*/
+$colores: 
+#ff88006b,
+#0d6efd,
+#00548a,
+white,
+grey,
+rgba(255, 255, 255, 0),
+black,
+rgb(4, 166, 216);
+
+
+/* font-size de mi sitio */
+$font-size:
+12px,
+14px,
+18px;
+
+
+
+/* Con nth utilizo las lista,
+primero pongo el nombre de la lista, y despues por ejemplo en este caso,
+el numero del color / font-size */
+a {
+    font-size: nth($font-size, 3);
+    background-color: nth($colores, 6);
+    text-decoration: none;
+    color:nth($colores, 4);
+     
+}
+
+a:hover { background-color:  nth($colores, 8);}
+

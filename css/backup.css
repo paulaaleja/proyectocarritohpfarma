@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+
+.col-md-4 {
+  padding-left: 5%;
+}
+
+.bg-primary {
+  background-color: #E88F2A !important;
+}
+
+
+/* general*/
+
+
+.col-lg-3 {
+  background-color: #ffffff2d;
+}
+
+.col-lg-3 .fab {
+  color: #00548a;
+}
+
+.bg-img {
+
+  background-size: cover;
+}
+
+.navbar-dark {
+  background-color: #00548a;
+}
+
+
+/*tienda*/
+
+
+.portfolio-caption {
+  background-color: rgba(16, 89, 158, 0.328);
+  color: aliceblue;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+
+/* footer*/
+
+.bg-imgfooter {
+  background-color: #00548a;
+}
+
+.d-flex {
+  color: aliceblue;
+}
+
+.d-flex a {
+  color: aliceblue;
+}
+
+
+.col-lg-8.col-md-6 {
+  color: aliceblue;
+}
+
+.col-lg-8.col-md-6 li {
+  color: aliceblue;
+}
+
+.text-secondary mb-2 {
+  color: aliceblue;
+}
+
+.lifoot {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.fab {
+  color: aliceblue;
+}
+
+/*poner al medio la c*/
+
+.c {
+  display: flex;
+  justify-content: center;
+  padding: 5% 5%;
+}
+
+
+.b .flex {
+  display: flex;
+  justify-content: center;
+  padding: 5% 5%;
+}
+
+
+
+
+/* galeria */
+
+.gallery-container {
+  /* habilitar nuestra grilla / grid */
+  display: grid;
+  /* columnas */
+  grid-template-columns: repeat(3, 1fr);
+  /* filas */
+  grid-auto-rows: 300px;
+  /* gap */
+  gap: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  /* para que la imagen no se distorcione */
+  object-fit: cover;
+  /* shadow = sombra */
+  -webkit-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+}
+
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  /* para que la imagen no se distorcione */
+  object-fit: cover;
+  /* shadow = sombra */
+  -webkit-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+}
+
+
+
+.gallery-imgxx {
+  width: auto;
+  height: auto;
+  font-family:Arial, Helvetica, sans-serif;
+  /* para que la imagen no se distorcione */
+  object-fit: cover;
+  /* shadow = sombra */
+  -webkit-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+  box-shadow: 10px 11px 12px -8px rgba(0, 0, 0, 0.36);
+}
+
+
+
+
+.img-4 {
+  /* que ocupe dos columnas */
+  grid-column: span 2;
+}
+
+
+/* que 
+  .img-5 {
+   
+    grid-row: span 2;
+  }ocupe dos filas */
+
+.img-9 {
+  /* que ocupe dos columnas */
+  grid-column: span 2;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+/* responsive la galeria 
+  @media query */
+
+/* mobile */
+@media (max-width:450px) {
+
+  /* redimensionamos la grilla*/
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 220px;
+  }
+
+  .img-4 p {
+    /* que ocupe dos columnas */
+    grid-column: none;
+  }
+
+  /* cambiamos el font-size de los titulos/encabezados */
+  h1 {
+    font-size: 22px;
+  }
+
+  .gallery-title {
+    display: none;
+  }
+
+  .gallery-item {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+}
+
+
+
+
+/* Podemos eliminar este estilo si no queremos que se adapte al ancho máximo */
+.c {
+  /*  width:560px;    Ancho máximo */
+  margin: auto;
+  /* Centramos el vídeo */
+}
+
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+.flexvideo {
+  height: 0px;
+  width: 100%;
+  padding-top: 56.25%;
+  /* Relación: 16/9 = 56.25% */
+  position: relative;
+}
+
+/* El iframe se adapta al tamaño del contenedor */
+.flexvideo iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PSEUDOELEMENTOS */
+
+/* tienda*/
+
+.portfolio-caption:hover {
+ 
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(57, 95, 183, 0.656);
+  width: 100%;
+  padding: 0;
+  font-weight: 1000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*animaciones en la galeria de nosotros*/
+
+.gallery-item:hover .gallery-img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+
+/*  copy - paste */
+p::selection {
+  background-color: cadetblue;
+  color: white;
+}
+
+/*
+after: despues de
+before: antes de
+*/
+
+
+/* PSEUDOCLASES */
+
+
+/* Interaccion al pasar el moouse 
+sobre el menu y footer los links*/
+a:hover {
+  font-style: italic;
+
+}
+
+/* Interaccion al pasar el moouse 
+sobre el formulario */
+
+.col-lg-9 :hover {
+  background-color: #00548A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query 
+regla - tipo de dispositivo - css
+*/
+
+@media screen and (max-width:980px) {
+  h1 {
+    color: #8a0043;
+  }
+
+  h2 {
+    color: rgb(24, 103, 207);
+  }
+
+  body {
+    background: rgb(0, 143, 223);
+    background: linear-gradient(90deg, rgba(0, 143, 223, 1) 0%, rgba(9, 96, 121, 0.6558998599439776) 0%, rgba(9, 96, 116, 0.14889705882352944) 69%);
+  }
+
+}
+
+
+
+
+/* print */
+/* Llamamos a la regla @media y despues 
+al tipo de dispositivo en este caso print */
+@media print {
+
+  h1,
+  h2 {
+    color: rgb(92, 71, 255);
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+
+/* Posicion 
+ vertical */
+
+
+
+/* vertical */
+@media (orientation:vertical) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+/* @media queries */
+
+/* mobile */
+@media only screen and (max-width:450px) {
+  body{
+      background-color: cadetblue;
+  }
+}
+
+/* tablet */
+
+@media only screen and (min-width:451px) and (max-width:960px){
+  body{
+      background-color: rgba(71, 151, 255, 0.364);
+      padding: 1%;
+  }
+
+}
+
+/* deskstop */
+@media only screen and (min-width:961px){
+  body{
+      background-color: rgb(255, 255, 255);
+  }
+
+}
+
+
+
+
+
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}

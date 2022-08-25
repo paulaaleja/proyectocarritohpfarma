@@ -1,0 +1,25 @@
+
+
+/* footer*/
+
+
+footer{
+.container-fluid{  background-color: nth($colores, 3); 
+  .container{   background-color: nth($colores, 3);
+    .text-primary{ color: nth($colores, 4);  
+    .row{  background-color: nth($colores, 4);
+      p{color:nth($colores, 4) ;}
+    
+      .col-lg-4 {background-color: nth($colores, 2); 
+        color:nth($colores, 4);
+        p {color: azure;}
+      .d-flex{color:nth($colores, 4)}
+        a {background-color: nth($colores, 3);
+          &:hover {
+            color: nth($colores, 3);}
+            
+      }
+     
+     
+        
+      }}}}}}

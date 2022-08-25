@@ -1,0 +1,30 @@
+/* Mixins nuevamente para el pie para el txt */
+
+
+
+
+@mixin flex ($flex, $align,$tono){
+    display: $flex;
+    align-items: $align;
+  
+    color: $tono;
+   
+}
+
+
+
+.mb-5{
+    @include flex (auto, center,white);
+    
+  
+    }
+
+
+ @mixin textual ($tipo, $tamano,$familia){
+        font-display: $tipo;
+        font-size: $tamano;
+      
+       font-family: $familia;
+       
+    }
+.mb-5 { @include textual (flex, 22px, "helvetica") }

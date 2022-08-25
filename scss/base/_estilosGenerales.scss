@@ -1,0 +1,28 @@
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'helvetica';
+    
+}
+
+
+/* Fuentes tipograficas */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+@font-face{
+    font-family: "Roboto";
+    src: url() format('');
+    font-display: swap;
+}
+
+/*
+Lo que hace el display:swap, es estar atento y revisa si la fuente tipografica todavia no se cargo
+si es asi, lo que hace es mostrar el contenido igual con una fuente alternativa, asi los usuarios
+pueden ver el contenido de igual manera, y una vez que se carga nuestra fuente tipografica este display
+swap se desactiva y te muestra la fuente original que nosotros seleccionamos 
+*/

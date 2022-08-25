@@ -1,0 +1,29 @@
+/* Condiciones */
+
+/*
+if (condicion){
+    se ejecuta este codigo
+} else {
+    se ejecuta este otro codigo
+}
+*/
+
+/* En este ejemplo si la variable vacia del mixin es igual a black, cumple la condicion y lo que hace es colocarle
+el border solid 2px blueviolet, y si esa variable vacia es distinta de black, no se cumple la condicion
+por lo cual coloca otro border con otro color en este caso turquoise */
+
+@mixin modos ($darkMode) {
+    @if $darkMode == black{
+        border: solid 2px blueviolet;
+    } @else {
+        border: solid 2px turquoise;
+    }
+}
+
+.bg-condicion{
+    @include modos(black);
+}
+
+.bg-condicion-2{
+    @include modos(orange);
+}

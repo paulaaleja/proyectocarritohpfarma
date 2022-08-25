@@ -1,0 +1,30 @@
+
+
+/* Podemos eliminar este estilo si no queremos que se adapte al ancho máximo */
+.c {
+    /*  width:560px;    Ancho máximo */
+    margin: auto;
+    /* Centramos el vídeo */
+  }
+  
+  /* El contenedor con el padding-top crea el tamaño del vídeo */
+  .flexdiv{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+  
+  
+  /* El iframe se adapta al tamaño del contenedor */
+  .externo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+
+
+

@@ -1,0 +1,23 @@
+/*Importamos todos los partials que vamos a utilizar, en este caso
+variables, listas y mapas */
+
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/mapas';
+@import '../base/estilosGenerales';
+
+/* Generamos el nesting o anidamiento segundo nuestra estructura HTML */
+.conteiner-fluid {
+    /*background-color: $bg-color-general;*/
+   background-color: aliceblue;
+    .conteiner-fluid { background-color: map-get($nav, bg-nav);
+        .row {
+            list-style: none;
+
+            .col-12 {
+                list-style: map-get($header, list);
+
+            
+            }
+        }
+    }}
